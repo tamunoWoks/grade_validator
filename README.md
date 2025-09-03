@@ -12,3 +12,10 @@ This script demonstrates:
 - Using **`raise Exception`** for input validation.
 - Using **`assert`** for debugging and type checking.
 - Wrapping logic inside **`try/except`** for graceful error handling.
+
+### Features
+- ✅ Validates that the name is not empty or whitespace.
+- ✅ Validates that the grade is an integer between 0 and 100.
+- ✅ Uses `assert` to ensure the grade type is always an integer.
+- ✅ Friendly error messages instead of Python tracebacks.
+- ✅ Modular structure with `valid()` and `main()` functions.
